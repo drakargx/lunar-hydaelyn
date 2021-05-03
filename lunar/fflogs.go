@@ -322,11 +322,6 @@ func (c FFLogsClient) GrabReportInfo(report string, fight Fight) DeconstructedQu
 		dr.Players[player.PlayerName] = player
 	}
 
-	//dr.RdpsRankings = append(dr.RdpsRankings, response.Data.ReportData.Report.Rankings.RankingData[0].Roles.Tanks.TankCharacters...)
-	//dr.RdpsRankings = append(dr.RdpsRankings, response.Data.ReportData.Report.Rankings.RankingData[0].Roles.Healers.HealerCharacters...)
-	//dr.RdpsRankings = append(dr.RdpsRankings, response.Data.ReportData.Report.Rankings.RankingData[0].Roles.DPS.DPSCharacters...)
-	//sort.Sort(byRdps(dr.RdpsRankings))
-
 	dr.Deaths = make(map[string]int)
 	dr.DamageDowns = make(map[string]int)
 	for _, s := range dr.Players {

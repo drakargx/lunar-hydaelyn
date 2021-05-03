@@ -24,7 +24,7 @@
 // }
 
 // func main() {
-// 	Token := "ODMzNTM0ODcxNjAyOTg3MDIw.YHzv1w.nK84CXuO6Vq5e8ZLkmYEL1GpS9o"
+//
 // 	// Create a new Discord session using the provided bot token.
 // 	dg, err := discordgo.New("Bot " + Token)
 // 	if err != nil {
