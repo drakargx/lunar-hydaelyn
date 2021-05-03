@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1280 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1.02591,0,0)">
+        <rect x="-2.114" y="0" width="1281.63" height="1021.4" style="fill:rgb(46,93,172);"/>
+    </g>
+    <g transform="matrix(0.38986,0,0,0.38986,-5.88895,13.7771)">
+        <g id="title">
+            <text x="18.704px" y="81.113px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:96.272px;fill:white;">Fatebreaker kill at 00:00</text>
+        </g>
+    </g>
+    <g id="layout">
+        <g transform="matrix(1,0,0,1,-286.252,-58.5515)">
+            <path d="M363.507,120.148L1412.23,120.148" style="fill:none;stroke:rgb(242,242,242);stroke-width:1.46px;"/>
+        </g>
+        <g transform="matrix(0.722568,0,0,0.722568,937.544,34.437)">
+            <text x="4.391px" y="104.095px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">Deaths</text>
+        </g>
+        <g transform="matrix(0.722568,0,0,0.722568,275.262,33.1359)">
+            <text x="4.391px" y="104.095px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">Job</text>
+        </g>
+        <g transform="matrix(0.722568,0,0,0.722568,51.4651,29.2324)">
+            <text x="4.391px" y="104.095px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">Players</text>
+        </g>
+        <g transform="matrix(0.48691,0,0,0.48691,520.31,43.103)">
+            <text x="464.996px" y="131.858px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:52.677px;fill:white;">Best Rank</text>
+        </g>
+        <g transform="matrix(0.522158,0,0,0.522158,16.4406,-49.2164)">
+            <text x="1067.43px" y="304.91px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:56.31px;fill:white;">Rank</text>
+        </g>
+        <g transform="matrix(0.443427,0,0,0.443427,609.076,-88.3883)">
+            <text x="1047.91px" y="440.229px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:56.31px;fill:white;">Dmg. Downs</text>
+        </g>
+        <g transform="matrix(0.11627,0,0,0.11627,343.582,64.3718)">
+            <text x="726.526px" y="369.967px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:236.139px;fill:white;">Rdps</text>
+        </g>
+    </g>
+    <g id="PLACEHOLDER">
+        <g id="PLAYER7" transform="matrix(0.698591,0,0,0.698591,44.083,795.843)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">P8</text>
+        </g>
+        <g id="PLAYER6" transform="matrix(0.698591,0,0,0.698591,44.083,695.655)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">P7</text>
+        </g>
+        <g id="PLAYER5" transform="matrix(0.698591,0,0,0.698591,42.7819,598.069)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">P6</text>
+        </g>
+        <g id="PLAYER4" transform="matrix(0.698591,0,0,0.698591,42.7819,495.278)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">P5</text>
+        </g>
+        <g id="PLAYER3" transform="matrix(0.698591,0,0,0.698591,42.7819,396.391)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">P4</text>
+        </g>
+        <g id="PLAYER2" transform="matrix(0.698591,0,0,0.698591,44.083,294.902)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">P3</text>
+        </g>
+        <g id="PLAYER1" transform="matrix(0.698591,0,0,0.698591,44.083,193.413)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">P2</text>
+        </g>
+        <g id="PLAYER0" transform="matrix(0.698591,0,0,0.698591,44.6167,93.225)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">P1</text>
+        </g>
+        <g id="JOB5" transform="matrix(0.698591,0,0,0.698591,228.845,591.563)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">JOB5</text>
+        </g>
+        <g id="JOB6" transform="matrix(0.698591,0,0,0.698591,228.845,695.655)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">JOB6</text>
+        </g>
+        <g id="JOB7" transform="matrix(0.698591,0,0,0.698591,228.845,797.144)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">JOB7</text>
+        </g>
+        <g id="JOB1" transform="matrix(0.698591,0,0,0.698591,230.147,194.714)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">JOB1</text>
+        </g>
+        <g id="JOB2" transform="matrix(0.698591,0,0,0.698591,227.544,294.902)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">JOB2</text>
+        </g>
+        <g id="JOB4" transform="matrix(0.698591,0,0,0.698591,228.845,492.676)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">JOB4</text>
+        </g>
+        <g id="JOB0" transform="matrix(0.698591,0,0,0.698591,227.544,95.8273)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">JOB0</text>
+        </g>
+        <g id="DPS0" transform="matrix(0.698591,0,0,0.698591,387.585,95.8273)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">DPS0</text>
+        </g>
+        <g id="DPS7" transform="matrix(0.698591,0,0,0.698591,387.585,797.144)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">DPS7</text>
+        </g>
+        <g id="DPS6" transform="matrix(0.698591,0,0,0.698591,387.585,694.353)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">DPS6</text>
+        </g>
+        <g id="DPS5" transform="matrix(0.698591,0,0,0.698591,387.585,592.864)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">DPS5</text>
+        </g>
+        <g id="DPS4" transform="matrix(0.698591,0,0,0.698591,387.585,493.977)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">DPS4</text>
+        </g>
+        <g id="DPS3" transform="matrix(0.698591,0,0,0.698591,387.585,395.09)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">DPS3</text>
+        </g>
+        <g id="DPS2" transform="matrix(0.698591,0,0,0.698591,387.585,297.505)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">DPS2</text>
+        </g>
+        <g id="DPS1" transform="matrix(0.698591,0,0,0.698591,387.585,196.015)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">DPS1</text>
+        </g>
+        <g id="JOB3" transform="matrix(0.698591,0,0,0.698591,228.845,396.391)">
+            <text x="57.738px" y="163.947px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:37.533px;fill:white;">JOB3</text>
+        </g>
+    </g>
+</svg>
