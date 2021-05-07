@@ -2,6 +2,9 @@ package lunar
 
 import (
 	"fmt"
+	"log"
+	"os"
+	"os/exec"
 	"sort"
 
 	"github.com/beevik/etree"
@@ -26,7 +29,7 @@ func (r SortByRdps) Less(i, j int) bool {
 	return r[i].Rdps > r[j].Rdps
 }
 
-func GenerateOutputPng(inkscapeLocation string, structure DeconstructedQueryResponse) {
+func GenerateOutputPng(structure DeconstructedQueryResponse) {
 
 	//possibly break DeconstructedQueryResponse into a map[string]string that looks like
 	//"PLAYER0": structure.RdpsRankings[0].PlayerName
@@ -71,4 +74,19 @@ func GenerateOutputPng(inkscapeLocation string, structure DeconstructedQueryResp
 	}
 
 	doc.WriteToFile("Output.svg")
+
+	//inkscapeLocation := os.Getenv("INKSCAPE")
+	writeOutputPng()
+}
+
+func writeOutputPng() {
+	cmd := exec.Command("inkscape.com", "--without-gui", `--export-type="png" Output.svg`)
+	cmd.Stdout = os.Stdout
+	err := cmd.Run()
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	//inkscape <- true
 }

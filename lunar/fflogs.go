@@ -66,17 +66,17 @@ const (
 
 var (
 	JobTickers = map[string]string{
-		"Paladin":     "PLD",
-		"Warrior":     "WAR",
-		"Dark Knight": "DRK",
-		"Gunbreaker":  "GNB",
+		"Paladin":    "PLD",
+		"Warrior":    "WAR",
+		"DarkKnight": "DRK",
+		"Gunbreaker": "GNB",
 
 		"Monk":    "MNK",
 		"Dragoon": "DRG",
 		"Ninja":   "NIN",
 		"Samurai": "SAM",
 
-		"White Mage":  "WHM",
+		"WhiteMage":   "WHM",
 		"Scholar":     "SCH",
 		"Astrologian": "AST",
 
@@ -84,10 +84,10 @@ var (
 		"Machinist": "MCH",
 		"Dancer":    "DNC",
 
-		"Black Mage": "BLM",
-		"Summoner":   "SMN",
-		"Red Mage":   "RDM",
-		"Blue Mage":  "BLU",
+		"BlackMage": "BLM",
+		"Summoner":  "SMN",
+		"RedMage":   "RDM",
+		"BlueMage":  "BLU",
 	}
 )
 
@@ -285,8 +285,17 @@ func (c FFLogsClient) GetLastFightInfo(report string) (*Fight, int) {
 	fights := response.QueryData.ReportData.Report.Fights
 	numFights := len(fights)
 
+	highestTime := 0
+	var lastFight *Fight
+	for i, f := range fights {
+		if f.EndTime > highestTime {
+			highestTime = f.EndTime
+			lastFight = &fights[i]
+		}
+	}
+
 	if numFights > 0 {
-		return &fights[numFights-1], numFights
+		return lastFight, numFights
 	} else {
 		return nil, 0
 	}
