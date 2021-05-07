@@ -302,6 +302,7 @@ func (c FFLogsClient) GetLastFightInfo(report string) (*Fight, int) {
 }
 
 func (c FFLogsClient) GrabReportInfo(report string, fight Fight) DeconstructedQueryResponse {
+
 	requestVariables := map[string]interface{}{
 		"report": report,
 		"start":  fight.StartTime,

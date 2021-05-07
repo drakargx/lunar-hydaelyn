@@ -82,7 +82,7 @@ func writeOutputPng() {
 
 	cmd := exec.Command("cmd", "/c", "inkscape --export-type=\"png\" Output.svg")
 	cmd.SysProcAttr = &syscall.SysProcAttr{
-		CreationFlags: syscall.CREATE_NEW_PROCESS_GROUP,
+		//CreationFlags: syscall.CREATE_NEW_PROCESS_GROUP,
 	}
 	err := cmd.Run()
 
@@ -118,7 +118,11 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 			client := lunar.NewFFLogsClient()
 
 			fight, _ := client.GetLastFightInfo(reportID)
-			lunar.GenerateOutputPng(client.GrabReportInfo(reportID, *fight))
+			if fight == nil {
+				panic("FIght is nil")
+			}
+			resp := client.GrabReportInfo(reportID, *fight)
+			lunar.GenerateOutputPng(resp)
 
 			f, err := os.Open("Output.png")
 			if err != nil {

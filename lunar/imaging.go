@@ -3,7 +3,6 @@ package lunar
 import (
 	"fmt"
 	"log"
-	"os"
 	"os/exec"
 	"sort"
 
@@ -80,8 +79,7 @@ func GenerateOutputPng(structure DeconstructedQueryResponse) {
 }
 
 func writeOutputPng() {
-	cmd := exec.Command("inkscape.com", "--without-gui", `--export-type="png" Output.svg`)
-	cmd.Stdout = os.Stdout
+	cmd := exec.Command("bash", "-c", "rsvg-convert -d 96 Output.svg > Output.png")
 	err := cmd.Run()
 
 	if err != nil {
